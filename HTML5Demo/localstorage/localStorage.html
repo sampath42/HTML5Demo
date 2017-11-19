@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+ 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML5 Web localStorage</title>
+    <script>
+        function clickCounter() {
+            if (typeof (Storage) !== "undefined") {
+                if (localStorage.clickcount) {
+                    localStorage.clickcount = Number(localStorage.clickcount) + 1;
+                }
+                else {
+                    localStorage.clickcount = 1;
+                }
+                document.getElementById("result").innerHTML = "You have clicked the HTML5 button " + localStorage.clickcount + " time(s).";
+            }
+            else {
+                document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+            }
+        }
+    </script>
+</head>
+<body>
+    <p>
+        <button onclick="clickCounter()" type="button">HTML5</button></p>
+    <div id="result"></div>
+    <p>Click the HTML5 button to see the counter increase.</p>
+    <p>Close the browser tab (or window), and try again, and the HTML5 button will continue counting with previous result.</p>
+</body>
+</html>

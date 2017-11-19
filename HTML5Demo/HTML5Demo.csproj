@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="audio\sound\cartoonOGG.ogg" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,7 +75,26 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="audio\autoplay.html" />
+    <Content Include="audio\loop.htm" />
+    <Content Include="audio\mediagroup.htm" />
+    <Content Include="audio\preload.htm" />
+    <Content Include="audio\sound\a.mp3" />
+    <Content Include="audio\sound\cartoonimpact.aac" />
+    <Content Include="audio\sound\cartoonimpact.mp3" />
+    <Content Include="audio\sound\cartoonimpact.wma" />
+    <Content Include="audio\sound\cartoonimpactwav.wav" />
+    <Content Include="canvas\canvas.html" />
+    <Content Include="datalist\datalist.html" />
+    <Content Include="details\detailsTag.html" />
+    <Content Include="geolocation\geolocation.html" />
+    <Content Include="html5forms\html5forms.html" />
+    <Content Include="localstorage\localStorage.html" />
+    <Content Include="meter\meter.html" />
+    <Content Include="sessionstorage\SessionStorage.html" />
+    <Content Include="svg\svg.html" />
     <Content Include="Web.config" />
+    <Content Include="websql\webSQL.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

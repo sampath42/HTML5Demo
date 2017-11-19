@@ -1,0 +1,19 @@
+<html>
+<head>
+<title> HTML5 Canvas</title>
+</head>
+<body>
+<h2> Graphics | Image</h2>
+<img id = "Dexter" src = "orderedList2.png" alt = "" width = "250" height = "320" />
+<p> Canvas: </p>
+<canvas id = "firstCanvas" width = "250" height = "250"
+		style = "border:1px solid #993300;">
+</canvas>
+<script>
+var v = document.getElementById("firstCanvas");
+var ctx = v.getContext("2d");
+ctx.fillStyle = "#993300";
+ctx.fillRect (0,0,250,250);
+</script>
+</body>
+</html>
